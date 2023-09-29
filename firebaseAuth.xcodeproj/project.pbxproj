@@ -13,6 +13,21 @@
 		44C614552ABA33EF00162DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C614532ABA33EF00162DA9 /* Main.storyboard */; };
 		44C614572ABA33F300162DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C614562ABA33F300162DA9 /* Assets.xcassets */; };
 		44C6145A2ABA33F300162DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C614582ABA33F300162DA9 /* LaunchScreen.storyboard */; };
+		44C614632ABA35F700162DA9 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614622ABA35F700162DA9 /* ForgotPasswordViewController.swift */; };
+		44C614652ABA360300162DA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614642ABA360300162DA9 /* LoginViewController.swift */; };
+		44C614672ABA361700162DA9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614662ABA361700162DA9 /* RegisterViewController.swift */; };
+		44C6146A2ABE102C00162DA9 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614692ABE102C00162DA9 /* AuthHeaderView.swift */; };
+		44C6146C2ABE2D9A00162DA9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6146B2ABE2D9A00162DA9 /* CustomTextField.swift */; };
+		44C6146E2ABF471300162DA9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6146D2ABF471300162DA9 /* CustomButton.swift */; };
+		44C614702ABF5FD700162DA9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6146F2ABF5FD700162DA9 /* WebViewController.swift */; };
+		44C614732AC0C25100162DA9 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614722AC0C25100162DA9 /* AlertManager.swift */; };
+		44C614752AC0CD1F00162DA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44C614742AC0CD1F00162DA9 /* GoogleService-Info.plist */; };
+		44C614792AC0D26400162DA9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614782AC0D26400162DA9 /* AuthService.swift */; };
+		44C6147C2AC20F0500162DA9 /* RegisterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6147B2AC20F0500162DA9 /* RegisterUserRequest.swift */; };
+		44C6147E2AC21A2F00162DA9 /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6147D2AC21A2F00162DA9 /* LoginUserRequest.swift */; };
+		44C614802AC34A9300162DA9 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6147F2AC34A9300162DA9 /* Validator.swift */; };
+		44C614892AC7563000162DA9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C614882AC7562F00162DA9 /* User.swift */; };
+		EF6BF34AA8BE74B704E6218A /* Pods_firebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AF3703980EA51FB5A8703F /* Pods_firebaseAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,23 @@
 		44C614562ABA33F300162DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C614592ABA33F300162DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C6145B2ABA33F300162DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C614622ABA35F700162DA9 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		44C614642ABA360300162DA9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44C614662ABA361700162DA9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		44C614692ABE102C00162DA9 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		44C6146B2ABE2D9A00162DA9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		44C6146D2ABF471300162DA9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		44C6146F2ABF5FD700162DA9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		44C614722AC0C25100162DA9 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		44C614742AC0CD1F00162DA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44C614782AC0D26400162DA9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		44C6147B2AC20F0500162DA9 /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
+		44C6147D2AC21A2F00162DA9 /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
+		44C6147F2AC34A9300162DA9 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		44C614882AC7562F00162DA9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4BBECEA7A87D379EAC69C3E6 /* Pods-firebaseAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseAuth.release.xcconfig"; path = "Target Support Files/Pods-firebaseAuth/Pods-firebaseAuth.release.xcconfig"; sourceTree = "<group>"; };
+		54AF3703980EA51FB5A8703F /* Pods_firebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE0BE6F018E1CFEB71C64CD /* Pods-firebaseAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseAuth.debug.xcconfig"; path = "Target Support Files/Pods-firebaseAuth/Pods-firebaseAuth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6BF34AA8BE74B704E6218A /* Pods_firebaseAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21839855F6A4950DEFED6BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0BE6F018E1CFEB71C64CD /* Pods-firebaseAuth.debug.xcconfig */,
+				4BBECEA7A87D379EAC69C3E6 /* Pods-firebaseAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		44C614412ABA33EE00162DA9 = {
 			isa = PBXGroup;
 			children = (
 				44C6144C2ABA33EF00162DA9 /* firebaseAuth */,
 				44C6144B2ABA33EF00162DA9 /* Products */,
+				21839855F6A4950DEFED6BD3 /* Pods */,
+				583ED6AC3313E79C1FA1D0DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,69 @@
 		44C6144C2ABA33EF00162DA9 /* firebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
+				44C6147A2AC20EED00162DA9 /* Models */,
+				44C614712AC0C22600162DA9 /* Controllers */,
+				44C614682ABA36FA00162DA9 /* Views */,
+				44C614612ABA357300162DA9 /* Supporting */,
+				44C6145B2ABA33F300162DA9 /* Info.plist */,
+				44C614742AC0CD1F00162DA9 /* GoogleService-Info.plist */,
+				44C6146F2ABF5FD700162DA9 /* WebViewController.swift */,
+				44C614782AC0D26400162DA9 /* AuthService.swift */,
+				44C614882AC7562F00162DA9 /* User.swift */,
+				44C614722AC0C25100162DA9 /* AlertManager.swift */,
+				44C6147F2AC34A9300162DA9 /* Validator.swift */,
+			);
+			path = firebaseAuth;
+			sourceTree = "<group>";
+		};
+		44C614612ABA357300162DA9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
 				44C6144D2ABA33EF00162DA9 /* AppDelegate.swift */,
 				44C6144F2ABA33EF00162DA9 /* SceneDelegate.swift */,
-				44C614512ABA33EF00162DA9 /* ViewController.swift */,
 				44C614532ABA33EF00162DA9 /* Main.storyboard */,
 				44C614562ABA33F300162DA9 /* Assets.xcassets */,
 				44C614582ABA33F300162DA9 /* LaunchScreen.storyboard */,
-				44C6145B2ABA33F300162DA9 /* Info.plist */,
 			);
-			path = firebaseAuth;
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		44C614682ABA36FA00162DA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44C614692ABE102C00162DA9 /* AuthHeaderView.swift */,
+				44C6146B2ABE2D9A00162DA9 /* CustomTextField.swift */,
+				44C6146D2ABF471300162DA9 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44C614712AC0C22600162DA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44C614512ABA33EF00162DA9 /* ViewController.swift */,
+				44C614642ABA360300162DA9 /* LoginViewController.swift */,
+				44C614662ABA361700162DA9 /* RegisterViewController.swift */,
+				44C614622ABA35F700162DA9 /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44C6147A2AC20EED00162DA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44C6147B2AC20F0500162DA9 /* RegisterUserRequest.swift */,
+				44C6147D2AC21A2F00162DA9 /* LoginUserRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		583ED6AC3313E79C1FA1D0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54AF3703980EA51FB5A8703F /* Pods_firebaseAuth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44C6145E2ABA33F300162DA9 /* Build configuration list for PBXNativeTarget "firebaseAuth" */;
 			buildPhases = (
+				9A9DB47379E4A8D22E80513C /* [CP] Check Pods Manifest.lock */,
 				44C614462ABA33EF00162DA9 /* Sources */,
 				44C614472ABA33EF00162DA9 /* Frameworks */,
 				44C614482ABA33EF00162DA9 /* Resources */,
+				AACBDC593ABD35A61C4C32E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C6145A2ABA33F300162DA9 /* LaunchScreen.storyboard in Resources */,
+				44C614752AC0CD1F00162DA9 /* GoogleService-Info.plist in Resources */,
 				44C614572ABA33F300162DA9 /* Assets.xcassets in Resources */,
 				44C614552ABA33EF00162DA9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +234,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A9DB47379E4A8D22E80513C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACBDC593ABD35A61C4C32E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseAuth/Pods-firebaseAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseAuth/Pods-firebaseAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseAuth/Pods-firebaseAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44C614462ABA33EF00162DA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C614632ABA35F700162DA9 /* ForgotPasswordViewController.swift in Sources */,
+				44C614732AC0C25100162DA9 /* AlertManager.swift in Sources */,
 				44C614522ABA33EF00162DA9 /* ViewController.swift in Sources */,
+				44C614792AC0D26400162DA9 /* AuthService.swift in Sources */,
+				44C614892AC7563000162DA9 /* User.swift in Sources */,
+				44C6147E2AC21A2F00162DA9 /* LoginUserRequest.swift in Sources */,
+				44C6146E2ABF471300162DA9 /* CustomButton.swift in Sources */,
+				44C614702ABF5FD700162DA9 /* WebViewController.swift in Sources */,
+				44C614802AC34A9300162DA9 /* Validator.swift in Sources */,
 				44C6144E2ABA33EF00162DA9 /* AppDelegate.swift in Sources */,
+				44C614672ABA361700162DA9 /* RegisterViewController.swift in Sources */,
+				44C6147C2AC20F0500162DA9 /* RegisterUserRequest.swift in Sources */,
+				44C6146C2ABE2D9A00162DA9 /* CustomTextField.swift in Sources */,
+				44C614652ABA360300162DA9 /* LoginViewController.swift in Sources */,
 				44C614502ABA33EF00162DA9 /* SceneDelegate.swift in Sources */,
+				44C6146A2ABE102C00162DA9 /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +440,7 @@
 		};
 		44C6145F2ABA33F300162DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE0BE6F018E1CFEB71C64CD /* Pods-firebaseAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +450,6 @@
 				INFOPLIST_FILE = firebaseAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +467,7 @@
 		};
 		44C614602ABA33F300162DA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBECEA7A87D379EAC69C3E6 /* Pods-firebaseAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +477,6 @@
 				INFOPLIST_FILE = firebaseAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
